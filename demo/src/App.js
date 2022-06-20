@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from './Components/Navbar'
+
 
 export const App = () => {
   return (
-    <h1>hello world</h1>
+   <>
+   <Navbar></Navbar>
+   </>  
   )
 }
 
